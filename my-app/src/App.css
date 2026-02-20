@@ -1,0 +1,87 @@
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.search-bar input {
+  padding: 8px;
+  font-size: 16px;
+  flex: 1;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+.results,
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.artwork-card {
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+.artwork-card img {
+  width: 200px;
+  height: auto;
+}
+
+.artwork-card h3 {
+  font-size: 14px;
+  margin: 8px 0 4px 0;
+}
+
+.artwork-card p {
+  font-size: 13px;
+  margin: 0;
+}
+
+.no-image {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  color: #999;
+}
+
+.note-section {
+  margin-top: 8px;
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.note-section input {
+  padding: 4px;
+  font-size: 13px;
+  flex: 1;
+}
+
+.note-section button {
+  padding: 4px 8px;
+  font-size: 13px;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+}
+
+section {
+  margin-bottom: 32px;
+}
